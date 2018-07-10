@@ -1,0 +1,31 @@
+/* Remove body unnecessary spaces*/
+* {
+	margin: 0px;
+	background-color: white;
+}
+
+/* Set Header as Flex Layout and dimension as 100% X 100% */
+/* Make sure <Header> content should be stretched. */
+header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+/*Set <div> background color should be green.*/
+/* set <div> dimension as 33% X 500px */
+/* Set <div> outer and inner space to 10px */
+/* Align the <div> content to center. */
+
+div {
+	background-color: green;
+	-ms-flex-preferred-size: auto;
+	flex-basis: auto;
+	width: 33%;
+	height: 500px;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}
